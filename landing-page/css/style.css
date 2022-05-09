@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: black;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    border-bottom: 1px solid white;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+.item-menu{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.cabecalho-imagem{
+    float: left;
+}
+.computador-logo{
+    width: 400px;
+    
+}
+.sessao-principal{
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    color: white;
+}
+.principal{
+    text-align: center;
+}
+.botao{
+    width: 200px;
+    height: 50px;
+    background:#407BFF;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1,p,button{
+    font-family: 'Inconsolata', monospace;
+    margin: 10px;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid white;
+}
+.rodape > .rodape-item{
+    display: flex;
+}
+
+.rodape-item > .item{
+    margin: 10px;
+}
